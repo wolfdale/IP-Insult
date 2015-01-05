@@ -1,12 +1,12 @@
 def main():
         import re
         import urllib
-        web=urllib.urlopen('http://ip-lookup.net/')
+        web=urllib.urlopen('http://ip-lookup.net/') #Getting Ip Address
         content=web.read()
         m = re.search('(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)',
-                content)
+                content) #Searching you're machine IP address on webpage
         myip=m.group(0)
-        print myip
+        print myip #That's You're Machine IP Address
         setip(myip)
 
 

@@ -118,7 +118,7 @@ def display (s,t,u,v):
         ,'fishified'      ,     'leaden-footed'     ,  'rascal'
         ,'Wart-necked'     ,    'muddy-mettled'      , 'Basket-Cockle'];
         print ('Thou'+ ' ' + col1[s] + ' ' + col2[t] +' '+ col3[u] +' '+ col4[v] + ' ' + '!' )
-        raw_input() 
+        return
 
 if __name__ == "__main__":
 	main()

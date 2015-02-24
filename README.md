@@ -3,7 +3,7 @@ IP-Insult
 <h4>Version: 0.0.1</h4>
 Shakespearean Insult For Your IP Address <br/>
 Generates a Classic Shakespearean Insult according to Your Ip Address. Currently Supporting only IPV4 Addresses.
-<p> <b>Some Examples</b> </p><br/>
+<p> <b>Some Examples</b> </p>
 198.168.1.1<br/>
 <i>Thou doghearted hasty-witted puking villainous ! </i><br/>
 227.110.142.190<br/>

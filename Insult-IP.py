@@ -1,5 +1,5 @@
 # ###############################
-# IP Insult Version 0.0.1
+# IP Insult Version 0.0.2
 # Author - Prakhar (Wolfdale)
 # For IPv4 Only
 # ###############################
@@ -79,7 +79,18 @@ def normalize(quad):
 
 def main():
     myip = urllib.urlopen('http://icanhazip.com/').read().strip()
+    print myip    
     print display(*map(normalize, myip.split('.')))
+    while True:
+        print "Try Random IP ? (y or n)"
+        if(raw_input().lower()=="y"):
+            import random
+	    NOS = random.sample(xrange(0,256),4) 
+	    myip = '.'.join(str(x) for x in NOS)
+            print myip
+	    print display(*map(normalize, myip.split('.')))
+	else:break
+    return
 
 
 def display(s, t, u, v):

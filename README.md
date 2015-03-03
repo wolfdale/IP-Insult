@@ -1,6 +1,6 @@
 IP-Insult
 =========
-<h4>Version: 0.0.2</h4><br/>
+<h4>Version: 0.0.2</h4>
 Shakespearean Insult For Your IP Address <br/>
 Generates a Classic Shakespearean Insult according to Your Ip Address. Currently Supporting only IPV4 Addresses.
 <h4>Changes:</h4>
@@ -11,7 +11,7 @@ Generates a Classic Shakespearean Insult according to Your Ip Address. Currently
 
 <h4>Version: 0.0.1</h4>
 Shakespearean Insult For Your IP Address <br/>
-Generates a Classic Shakespearean Insult according to Your Ip Address. Currently Supporting only IPV4 Addresses.
+Generates a Classic Shakespearean Insult according to Your IP Address. Currently Supporting only IPV4 Addresses.
 <p> <b>Some Examples</b> </p>
 198.168.1.1<br/>
 <i>Thou doghearted hasty-witted puking villainous ! </i><br/>

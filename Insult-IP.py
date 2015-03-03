@@ -79,17 +79,18 @@ def normalize(quad):
 
 def main():
     myip = urllib.urlopen('http://icanhazip.com/').read().strip()
-    print myip    
+    print myip
     print display(*map(normalize, myip.split('.')))
     while True:
         print "Try Random IP ? (y or n)"
-        if(raw_input().lower()=="y"):
+        if(raw_input().lower() == "y"):
             import random
-	    NOS = random.sample(xrange(0,256),4) 
-	    myip = '.'.join(str(x) for x in NOS)
+            NOS = random.sample(xrange(0, 256), 4)
+            myip = '.'.join(str(x) for x in NOS)
             print myip
-	    print display(*map(normalize, myip.split('.')))
-	else:break
+            print display(*map(normalize, myip.split('.')))
+        else:
+            break
     return
 
 
